@@ -2,4 +2,4 @@
 - name: Ensure Sensu Go component is installed
   package:
     name: "sensu-go-{{ component }}"
-    state: present
+    state: latest
